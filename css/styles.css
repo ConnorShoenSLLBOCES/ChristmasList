@@ -1,0 +1,227 @@
+/* CSS Document */
+
+/* Fonts
+Tilt Neon
+*/
+
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img {
+	margin: auto;
+	padding: auto;
+	border: auto;
+	font-family: 'Tilt Neon', sans-serif;
+	background-color: #C6383B;
+}
+
+
+/* Mobile Media Query */
+@media screen and (max-width: 480px) {
+	
+	.mobile {
+		display: block;
+	}
+	
+	.tablet-desktop {
+		display: none;
+	}
+	
+	
+	
+}
+@media screen and (min-width: 481px) {	
+	.mobile {
+		display: none;
+	}
+	
+	.tablet-desktop {
+		display: inline;
+	}
+}
+/* Body CSS */
+body {
+	color: #fff;
+}
+
+/* Hero-Image CSS */
+#hero h1 a {
+	text-decoration: none;
+}
+
+#hero img {
+	max-width: 90%;
+	display: block;
+	border: 20px #18682A groove;
+	margin: auto;
+	top: auto;
+	text-decoration: none;
+}
+
+.start {
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* Header CSS */
+header {
+	text-align: center;
+	background-color: #C6383B;
+	display: block;
+	margin: auto;
+	font-size: 1.3em;
+	text-decoration: none;
+	color: #fff;
+}
+
+header h1 {
+	font-size: 1.3em;
+	text-decoration: none;
+	color: #fff;
+	padding-bottom: 3%;
+}
+
+header h1 a {
+	font-size: 1.3em;
+	text-decoration: none;
+	color: #fff;
+}
+
+/* Main CSS */
+main {
+	background-color: #682B2B;
+	display: block;
+	text-decoration: none;
+}
+
+main #row-1 a {
+	text-decoration: none;
+	text-align: center;
+}
+
+main #row-1 img {
+	background-color: #682B2B;
+	max-width: 30%;
+	max-height: 30%;
+	margin: 1% 8% 5% 8%;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	border: 6px #4FB945 groove;
+}
+
+main #row-1 img:first-child {
+	margin: 1% 8% 5% 14%;
+}
+
+main #row-2 a {
+	text-decoration: none;
+	text-align: center;
+}
+
+main #row-2 img {
+	background-color: #682B2B;
+	max-width: 30%;
+	max-height: 30%;
+	margin: 1% 8% 5% 8%;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	border: 6px #4FB945 groove;
+}
+
+main #row-2 img:first-child {
+	margin: 1% 8% 5% 14%;
+}
+
+
+main #row-3 a {
+	text-decoration: none;
+	text-align: center;
+}
+
+main #row-3 img:first-child {
+	margin: 1% 8% 5% 14%;
+}
+
+main #row-3 img {
+	background-color: #682B2B;
+	max-width: 30%;
+	max-height: 30%;
+	margin: 1% 8% 5% 8%;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	border: 6px #4FB945 groove;
+}
+
+main .heading {
+	text-align: center;
+	background-color: #682B2B;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+main #item {
+	max-height: 200%;
+	max-width: 200%;
+	margin: 2% 20% 2% 20%;
+	text-decoration: none;
+	text-align: center;
+	background-color: #682B2B;
+}
+
+main .bio {
+	text-align: center;
+	background-color: #682B2B;
+	font-size: .8em;
+	text-decoration: none;
+}
+
+main .bio a {
+	text-decoration: none;
+	color: #55C2E5;
+}
+
+/* Nav CSS */ 
+nav {
+	color: #78ADD7;
+	width: 70%;
+	text-align: center;
+	background-color: #C6383B;
+	display: block;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	display: block;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+nav ul li a {
+	color: #78ADD7;
+	text-align: center;
+	text-decoration: none;
+	margin: auto;
+}
+
+/* Footer CSS */
+footer {
+	color: #fff;
+	text-decoration: none;
+	background-color: #C6383B;
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+footer a {
+	color: #47505A;
+	text-decoration: none;
+}
