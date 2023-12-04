@@ -26,15 +26,6 @@ body, header, nav, main, footer, h1, div, img {
 		display: none;
 	}
 
-@media screen and (min-width: 481px) {	
-	.mobile {
-		display: none;
-	}
-	
-	.tablet-desktop {
-		display: inline;
-	}
-}
 /* Body CSS */
 body {
 	color: #fff;
@@ -92,89 +83,122 @@ main {
 
 main .gifts {
 	display: grid;
-	padding: 5% 0;
-	background-color: #682B2B;
+	padding: 10% 0 20% 0;
+	margin: auto;
+	background-image: url("../images/christmasTown.jpeg");
+	background-size: cover;
 	width: 95%;
-	grid-template-columns: 29% 29% 29%;
+	grid-template-columns: 25% 25% 25%;
 	grid-template-areas: 
 		"it1 it2 it3"
 		"it4 it5 it6"
 		"it7 it8 it9";
 	grid-gap: 2%;
 	justify-content: center;
+	font-size: 1.02em;
+	border-right: dashed #286DA3 12px;
+	border-left: dashed #286DA3 12px;
 }
 
 #item1 {
 	grid-area: it1;
-	min-height: 200px;
-	background-color: #0F2904;
-	color: #A068DF;
+	background-color: #682B2B98;
+	color: #FFD104;
+	justify-content: center;
+	text-align: center;
+	border: 10px #4fafd2 groove;
+	max-width: 250px;
 }
 
 #item2 {
 	grid-area: it2;
-	min-height: 200px;
-	background-color: #0F2904;
-	color: #A068DF;
+	background-color: #682B2B98;
+	color: #FFD104;
+	justify-content: center;
+	text-align: center;
+	border: 10px #4fafd2 groove;
+	max-width: 250px;
 }
 
 #item3 {
 	grid-area: it3;
-	min-height: 200px;
-	background-color: #0F2904;
-	color: #A068DF;
+	background-color: #682B2B98;
+	color: #FFD104;
+	justify-content: center;
+	text-align: center;
+	border: 10px #4fafd2 groove;
+	max-width: 250px;
 }
 
 #item4 {
 	grid-area: it4;
-	min-height: 200px;
-	background-color: #0F2904;
-	color: #A068DF;
+	background-color: #682B2B98;
+	color: #FFD104;
+	justify-content: center;
+	text-align: center;
+	border: 10px #4fafd2 groove;
+	max-width: 250px;
 }
 
 #item5 {
 	grid-area: it5;
-	min-height: 200px;
-	background-color: #0F2904;
-	color: #A068DF;
+	background-color: #682B2B98;
+	color: #FFD104;
+	justify-content: center;
+	text-align: center;
+	border: 10px #4fafd2 groove;
+	max-width: 250px;
 }
 
 #item6 {
 	grid-area: it6;
-	min-height: 200px;
-	background-color: #0F2904;
-	color: #A068DF;
+	background-color: #682B2B98;
+	color: #FFD104;
+	justify-content: center;
+	text-align: center;
+	border: 10px #4fafd2 groove;
+	max-width: 250px;
 }
 
 #item7 {
 	grid-area: it7;
-	min-height: 200px;
-	background-color: #0F2904;
-	color: #A068DF;
+	background-color: #682B2B98;
+	color: #FFD104;
+	justify-content: center;
+	text-align: center;
+	border: 10px #4fafd2 groove;
+	max-width: 250px;
 }
 
 #item8 {
 	grid-area: it8;
-	min-height: 200px;
-	background-color: #0F2904;
-	color: #A068DF;
+	background-color: #682B2B98;
+	color: #FFD104;
+	justify-content: center;
+	text-align: center;
+	border: 10px #4fafd2 groove;
+	max-width: 250px;
 }
 
 #item9 {
 	grid-area: it9;
-	min-height: 200px;
-	background-color: #0F2904;
-	color: #A068DF;
+	background-color: #682B2B98;
+	color: #FFD104;
+	justify-content: center;
+	text-align: center;
+	border: 10px #4fafd2 groove;
+	max-width: 250px;
 }
 
 main .gifts a {
 	text-decoration: none;
 	text-align: center;
-	background-color: #0F2904;
+	background-color: #682B2B98;
 }
 
 main .gifts img {
 	border: 3px #6edf68 groove;
+	max-width: 80%;
 }
 
 main .heading {
@@ -208,10 +232,9 @@ main .bio a {
 /* Nav CSS */ 
 nav {
 	color: #78ADD7;
-	width: 70%;
 	text-align: center;
-	background-color: #C6383B;
-	display: block;
+	background-color: #138010;
+	display: inline;
 }
 
 nav ul {
@@ -219,7 +242,6 @@ nav ul {
 }
 
 nav ul li {
-	display: block;
 	font-size: 1.2em;
 	font-weight: bold;
 }
@@ -235,10 +257,12 @@ nav ul li a {
 footer {
 	color: #fff;
 	text-decoration: none;
-	background-color: #C6383B;
+	background-color: #138010;
 	text-align: center;
 	display: block;
 	margin: auto;
+	width: 94.5%;
+	border: 10px #751415 dashed;
 }
 
 footer a {
