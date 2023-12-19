@@ -1,6 +1,7 @@
 /* CSS Document */
 
-/* Fonts
+/* 
+Fonts:
 Tilt Neon
 */
 
@@ -8,7 +9,7 @@ Tilt Neon
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 
 /* CSS Reset */
-body, header, nav, main, footer, h1, div, img {
+body, header, nav, main, footer, h1, h2, h3, h4, h5, h6, div, img, #hero {
 	margin: auto;
 	padding: auto;
 	border: auto;
@@ -24,6 +25,7 @@ body {
 /* Hero-Image CSS */
 #hero {
 	background: repeating-radial-gradient(#7695C8, #0A6235, #983636 10%);
+	padding: 2% 0 4% 0;
 	border-bottom: 20px #2D15C8 ridge;
 }
 
@@ -38,7 +40,6 @@ body {
 	margin: auto;
 	top: auto;
 	text-decoration: none;
-	background: radial-gradient(#7695C8, #0A6235, #983636);
 }
 
 .start {
@@ -50,7 +51,7 @@ body {
 /* Header CSS */
 header {
 	text-align: center;
-	background-color: #C6383B;
+	
 	display: block;
 	margin: auto;
 	font-size: 1.3em;
@@ -61,19 +62,13 @@ header {
 header h1 {
 	font-size: 1.3em;
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 	padding-bottom: 3%;
-}
-
-header h1 a {
-	font-size: 1.3em;
-	text-decoration: none;
-	color: #fff;
 }
 
 /* Main CSS */
 main {
-	background-color: #682B2B;
+	background-color: #1B3B9C;
 	text-decoration: none;
 }
 
@@ -210,7 +205,7 @@ main .gifts img {
 
 main .heading {
 	text-align: center;
-	background-color: #682B2B;
+	background-color: #1B3B9C;
 	font-size: 1.4em;
 	font-weight: bold;
 }
@@ -221,14 +216,21 @@ main #item {
 	margin: 2% 20% 2% 20%;
 	text-decoration: none;
 	text-align: center;
-	background-color: #682B2B;
+	background-color: #1B3B9C;
+}
+
+main .roman-numerals {
+	text-decoration: overline underline;
+	font-size: .8em;
 }
 
 main .bio {
 	text-align: center;
-	background-color: #682B2B;
+	background-color: #1B3B9C;
 	font-size: .8em;
 	text-decoration: none;
+	border-bottom: 5px solid #046E83;
+	border-top: 5px solid #046E83;
 }
 
 main .bio a {
@@ -238,7 +240,7 @@ main .bio a {
 
 /* Nav CSS */ 
 nav {
-	color: #78ADD7;
+	color: #C2EAC7;
 	text-align: center;
 	background-color: #138010;
 	display: inline;
@@ -255,7 +257,7 @@ nav ul li {
 }
 
 nav ul li a {
-	color: #78ADD7;
+	color: #C2EAC7;
 	text-align: center;
 	text-decoration: none;
 	margin: auto;
@@ -265,16 +267,17 @@ nav ul li a {
 footer {
 	color: #fff;
 	text-decoration: none;
-	background-color: #138010;
+	background: repeating-radial-gradient(#7695C8, #0A6235, #983636 10%);
 	text-align: center;
 	display: block;
 	margin: auto;
 	width: 97%;
-	border: 10px #751415 dashed;
+	border: 10px #9D7D33 dashed;
 	justify-content: center;
+	margin-top: 5%;
 }
 
 footer a {
-	color: #47505A;
+	color: #C6A6CC;
 	text-decoration: none;
 }
